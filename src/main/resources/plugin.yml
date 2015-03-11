@@ -1,0 +1,9 @@
+name: BukkitTTY
+main: net.frazew.bukkittty.BukkitTTY
+version: 0.0.1
+commands:
+   shell:
+      description: Lance une commande shell dans un répertoire
+      usage: /<command> command [--shellDir/home/.]
+      permission: overviewer.shell
+      permission-message: You don't have <permission>
